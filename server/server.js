@@ -5,6 +5,7 @@ import cors from 'cors'
 import 'dotenv/config'
 import userRouter from './routes/authRoutes.js'
 import productRouter from './routes/productRoutes.js'
+import shopRouter from './routes/shopRoutes.js'
 
 const app =express()
 const port = process.env.PORT || 5000
@@ -27,6 +28,7 @@ app.use(express.json())
 app.use(cors(corsOptions))
 app.use('/api/auth/',userRouter)
 app.use('/api/admin/products', productRouter)
+app.use('/api/shop/products',shopRouter)
 
 
 app.listen(port, ()=> console.log("Server started on PORT "+ port))

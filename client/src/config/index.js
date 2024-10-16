@@ -131,22 +131,17 @@ export const registerFormControls = [
     },
   ];
   
-  // export const categoryOptionsMap = {
-  //   men: "Men",
-  //   women: "Women",
-  //   kids: "Kids",
-  //   accessories: "Accessories",
-  //   footwear: "Footwear",
-  // };
+  export const categoryOptionsMap = {
+    men: "Men",
+    women: "Women",
+    kids: "Kids",
+  };
   
-  // export const brandOptionsMap = {
-  //   nike: "Nike",
-  //   adidas: "Adidas",
-  //   puma: "Puma",
-  //   levi: "Levi",
-  //   zara: "Zara",
-  //   "h&m": "H&M",
-  // };
+  export const subCategoryOptionMap = {
+    topwear: "Top-wear",
+    bottomwear: "Bottom-wear",
+    winterwear: "Wimter-wear",
+  };
   
   export const filterOptions = {
     category: [
