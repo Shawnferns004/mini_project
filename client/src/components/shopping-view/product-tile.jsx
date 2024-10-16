@@ -5,9 +5,9 @@ import { Button } from "../ui/button";
 
 const ShoppingProductTile = ({ product }) => {
 
-    
 
-  return (
+
+  return ( 
     <Card className="w-full max-w-sm mx-auto">
       <div className="">
         <div className="relative">
